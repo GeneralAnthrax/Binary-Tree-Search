@@ -89,9 +89,8 @@ public class BinaryTree<E> {
 	protected boolean isLeaf(Node<E> root) {
 		if (root == null) {
 			return false;
-		} else {
-			return root.left == null && root.right == null;
 		}
+		return root.left == null && root.right == null;
 	}
 
 	/**
@@ -198,9 +197,8 @@ public class BinaryTree<E> {
 	protected boolean isFull(Node<E> root) {
 		if (root == null) {
 			return false; 
-		} else {
-			return isLeaf(root) || isFull(root.left) && isFull(root.right);
 		}
+		return isLeaf(root) || isFull(root.left) && isFull(root.right);
 	}
 
 	/**
