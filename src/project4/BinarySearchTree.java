@@ -1,7 +1,7 @@
 /*
- * Name: 
+ * Name: Kaleb Hamrick
  * Instructor:
- * Date:
+ * Date:12/27/17
  * Assignment: Project 4 (Binary Search Trees)
  * Purpose:
  */
